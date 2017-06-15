@@ -1626,7 +1626,7 @@
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #05848D;
 			border-bottom-color: transparent;
 		}
 
@@ -1857,7 +1857,7 @@
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #05848D;
 				}
 
 	ol.default {
@@ -1990,7 +1990,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #05848D;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2012,7 +2012,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #05848D;
 		}
 
 		input[type="button"].alt,
@@ -2020,7 +2020,7 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #05848D;
 		}
 
 			input[type="button"].alt:hover,
@@ -2028,7 +2028,7 @@
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #3B353C;
+				background: #05848D;
 			}
 
 /* Post */
@@ -2050,7 +2050,7 @@
 		.icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
-			font-size: 1.25em;
+			font-size: 2.25em;
 			text-decoration: none;
 			font-style: normal;
 			font-weight: normal;
@@ -2294,7 +2294,7 @@
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #05848D;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2378,7 +2378,7 @@
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: black;
 		color: #fff;
 	}
 
@@ -2467,7 +2467,7 @@
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: #05848D;
 			}
 
 		.carousel .forward {
