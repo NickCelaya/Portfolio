@@ -2083,12 +2083,13 @@
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background-color: #9BA2AC;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
 
 		.wrapper.style2 {
+			background-color: #9BA2AC;
 			padding-top: 0;
 		}
 
@@ -2326,7 +2327,7 @@
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #9BA2AC;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2382,6 +2383,13 @@
 		color: #fff;
 	}
 
+	.flexbox {
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+
 		#footer .icon.circled {
 			background: #fff;
 			color: #2b252c;
@@ -2423,6 +2431,7 @@
 /* Carousel */
 
 	.carousel {
+		background-color: #9BA2AC;
 		position: relative;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
@@ -2551,12 +2560,17 @@
 		/* Carousel */
 
 			.carousel {
+				background-color: #9BA2AC
 				padding: 1.5em 0 1.5em 0;
 			}
 
 				.carousel .reel {
+					background-color: #9BA2AC;
+					text-align: center;
+					padding: 4.5em 0 4.5em 0;
+					margin-bottom: 0;
 					padding: 0 1.5em 0 1.5em;
-				}
+
 
 				.carousel article {
 					width: 18em;
