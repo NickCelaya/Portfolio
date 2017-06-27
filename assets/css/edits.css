@@ -1,0 +1,84 @@
+.about-me-wrapper {
+  margin-top: 2em;
+}
+
+.about-me-pic {
+  padding-top: 2em;
+}
+
+#skills {
+  font-size: 6rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills h2 {
+  padding-bottom: 100px;
+}
+
+#portfolio {
+  max-height: 200px;
+
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#sample {
+  max-height: 200px;
+  max-width: 205px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.github {
+  padding-left: 15px;
+}
+.github-link {
+  margin: auto;
+}
+
+.sample-header {
+  margin-top: 15px;
+}
+
+.port-title-link {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 750px) {
+  .about-me-pic {
+    padding-top: 2em;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .about-me-article {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-me-section {
+    width: 100%;
+    padding-right: 10px;
+  }
+  .about-me-wrapper {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #sample {
+    max-height: 240px;
+    max-width: 260px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}

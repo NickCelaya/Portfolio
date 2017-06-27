@@ -1551,8 +1551,8 @@
 /* Basic */
 
 	body {
-		background: #f0f4f4;
-		color: #5b5b5b;
+		background: black;
+		color: #C7CAD1;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1579,7 +1579,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #C7CAD1;
 		line-height: 1.25em;
 	}
 
@@ -1608,7 +1608,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #008A89;
 	}
 
 	em, i {
@@ -1617,7 +1617,6 @@
 
 	a {
 		color: inherit;
-		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1626,7 +1625,7 @@
 	}
 
 		a:hover {
-			color: #05848D;
+			color: #008A89;
 			border-bottom-color: transparent;
 		}
 
@@ -1857,7 +1856,7 @@
 			}
 
 				ul.icons li a:hover {
-					color: #05848D;
+					color: #008A89;
 				}
 
 	ol.default {
@@ -1990,7 +1989,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #05848D;
+		background: #008A89;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2012,7 +2011,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #05848D;
+			background: #008A89;
 		}
 
 		input[type="button"].alt,
@@ -2020,7 +2019,7 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #05848D;
+			background: #2B252C;
 		}
 
 			input[type="button"].alt:hover,
@@ -2028,7 +2027,7 @@
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #05848D;
+				background: #3B353C;
 			}
 
 /* Post */
@@ -2050,7 +2049,7 @@
 		.icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
-			font-size: 2.25em;
+			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
 			font-weight: normal;
@@ -2083,13 +2082,13 @@
 /* Wrapper */
 
 	.wrapper {
-		background-color: #9BA2AC;
+		background: black;
+    color: #C7CAD1;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
 
 		.wrapper.style2 {
-			background-color: #9BA2AC;
 			padding-top: 0;
 		}
 
@@ -2098,6 +2097,7 @@
 	#header {
 		position: relative;
 		background-image: url("../../images/norway.jpg");
+		/*background: url("../../videos/waterfall.mp4")*/
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2295,7 +2295,7 @@
 			}
 
 			.dropotron li:hover {
-				color: #05848D;
+				color: #008A89;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2327,7 +2327,7 @@
 /* Banner */
 
 	#banner {
-		background: #9BA2AC;
+		background: #fff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2383,13 +2383,6 @@
 		color: #fff;
 	}
 
-	.flexbox {
-		display: flex;
-		justify-content: space-around;
-	}
-
-
-
 		#footer .icon.circled {
 			background: #fff;
 			color: #2b252c;
@@ -2431,7 +2424,6 @@
 /* Carousel */
 
 	.carousel {
-		background-color: #9BA2AC;
 		position: relative;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
@@ -2476,7 +2468,7 @@
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: #05848D;
+				background-color: #008A89;
 			}
 
 		.carousel .forward {
@@ -2560,17 +2552,12 @@
 		/* Carousel */
 
 			.carousel {
-				background-color: #9BA2AC
 				padding: 1.5em 0 1.5em 0;
 			}
 
 				.carousel .reel {
-					background-color: #9BA2AC;
-					text-align: center;
-					padding: 4.5em 0 4.5em 0;
-					margin-bottom: 0;
 					padding: 0 1.5em 0 1.5em;
-
+				}
 
 				.carousel article {
 					width: 18em;
@@ -2796,7 +2783,7 @@
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			/*#navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2812,9 +2799,9 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-			}
+			}*/
 
-				#navButton .toggle {
+				/*#navButton .toggle {
 					position: absolute;
 					left: 0;
 					top: 0;
@@ -2822,9 +2809,9 @@
 					height: 100%;
 					border: 0;
 					outline: 0;
-				}
+				}*/
 
-					#navButton .toggle:before {
+					/*#navButton .toggle:before {
 						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
@@ -2846,9 +2833,9 @@
 						background: rgba(132, 128, 136, 0.75);
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
-					}
+					}*/
 
-			#navPanel {
+			/*#navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2933,7 +2920,7 @@
 
 				#navPanel .depth-0 {
 					color: #fff;
-				}
+				}*/
 
 			body.navPanel-visible #page-wrapper {
 				-moz-transform: translateY(50vh);
