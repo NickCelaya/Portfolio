@@ -2092,12 +2092,30 @@
 			padding-top: 0;
 		}
 
+
+	/*.seperation {
+		 background-color: #008A89;
+		 height: 80px;
+		 width: 100vw
+}*/
+
+.seperation {
+
+background: linear-gradient(#008A89, black, #008A89);
+    position: relative;
+    height: 20px;
+		margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+
+
 /* Header */
 
 	#header {
 		position: relative;
 		background-image: url("../../images/norway.jpg");
-		/*background: url("../../videos/waterfall.mp4")*/
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2394,7 +2412,7 @@
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #fff;
+			color: #C7CAD1;
 		}
 
 		#footer .contact {
