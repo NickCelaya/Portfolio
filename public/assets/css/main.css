@@ -1607,6 +1607,7 @@
 	}
 
 	strong, b {
+		cursor: pointer;
 		font-weight: 400;
 		color: #008A89;
 	}
@@ -2196,7 +2197,7 @@ background: linear-gradient(#008A89, black, #008A89);
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: black;
 			display: block;
 			position: absolute;
 			left: 0;
